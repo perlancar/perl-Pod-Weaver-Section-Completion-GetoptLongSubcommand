@@ -1,4 +1,4 @@
-package Pod::Weaver::Section::Completion::GetoptLongComplete;
+package Pod::Weaver::Section::Completion::GetoptLongSubcommand;
 
 # DATE
 # VERSION
@@ -37,8 +37,8 @@ sub weave_section {
     #                      $filename]);
     #    return;
     #}
-    unless ($content =~ /(use|require)\s+Getopt::Long::Complete\b/) {
-        $self->log_debug(["skipped file %s (does not use Getopt::Long::Complete)",
+    unless ($content =~ /(use|require)\s+Getopt::Long::Subcommand\b/) {
+        $self->log_debug(["skipped file %s (does not use Getopt::Long::Subcommand)",
                           $filename]);
         return;
     }
@@ -50,7 +50,7 @@ sub weave_section {
 
 no Moose;
 1;
-# ABSTRACT: Add a COMPLETION section for Getopt::Long::Complete-based scripts
+# ABSTRACT: Add a COMPLETION section for Getopt::Long::Subcommand-based scripts
 
 =for Pod::Coverage weave_section
 
@@ -58,18 +58,18 @@ no Moose;
 
 In your C<weaver.ini>:
 
- [Completion::GetoptLongComplete]
+ [Completion::GetoptLongSubcommand]
 
 
 =head1 DESCRIPTION
 
-This section plugin adds a COMPLETION section for Getopt::Long::Complete-based
+This section plugin adds a COMPLETION section for Getopt::Long::Subcommand-based
 scripts. The section contains information on how to activate shell tab
 completion for the scripts.
 
 
 =head1 SEE ALSO
 
-L<Getopt::Long::Complete>
+L<Getopt::Long::Subcommand>
 
 =cut
