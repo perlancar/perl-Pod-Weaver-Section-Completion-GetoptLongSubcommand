@@ -1,5 +1,12 @@
 Revision history for Pod-Weaver-Section-Completion-GetoptLongSubcommand
 
+0.02    2015-04-01 (PERLANCAR)
+
+	- No functional changes.
+
+	- Remove Moose::Autobox.
+
+
 0.01    2015-02-11 (PERLANCAR)
 
         - First release.
