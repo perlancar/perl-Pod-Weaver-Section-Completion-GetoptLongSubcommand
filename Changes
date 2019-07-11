@@ -1,20 +1,20 @@
-0.04    2016-04-30 (PERLANCAR)
+0.04    2016-04-30  Released-By: PERLANCAR
 
 	- Skip completer script (_foo).
 
 
-0.03    2015-08-26 (PERLANCAR)
+0.03    2015-08-26  Released-By: PERLANCAR
 
 	- Adjust to PWR:SectionText::SelfCompletion 0.04.
 
 
-0.02    2015-04-01 (PERLANCAR)
+0.02    2015-04-01  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Remove Moose::Autobox.
 
 
-0.01    2015-02-11 (PERLANCAR)
+0.01    2015-02-11  Released-By: PERLANCAR
 
         - First release.
